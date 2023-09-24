@@ -15,4 +15,4 @@
 
 
 def is_valid(string: str) -> bool:
-    return string.isdigit() and (4 <= len(string) <= 6)
+    return string.isdigit() and len(string) in (4, 5, 6)
